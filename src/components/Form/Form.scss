@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  input[type='text'] {
+    width: 90%;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 1rem;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  button[type='submit'] {
+    border: none;
+    width: 50px; /* Tamanho fixo para o botão */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(23, 105, 105);
+
+    &:hover {
+      background-color: rgb(39, 137, 144);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .form {
+    gap: 0.5rem;
+    input[type='text'] {
+      width: 70%;
+    }
+  }
+}
