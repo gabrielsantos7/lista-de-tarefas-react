@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/lista-de-tarefas-react/static/css/main.179a5295.css",
+    "main.js": "/lista-de-tarefas-react/static/js/main.90fbcb62.js",
+    "static/media/background.jpg": "/lista-de-tarefas-react/static/media/background.9bd94859fd001d8be8e2.jpg",
+    "index.html": "/lista-de-tarefas-react/index.html",
+    "main.179a5295.css.map": "/lista-de-tarefas-react/static/css/main.179a5295.css.map",
+    "main.90fbcb62.js.map": "/lista-de-tarefas-react/static/js/main.90fbcb62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.179a5295.css",
+    "static/js/main.90fbcb62.js"
+  ]
+}
